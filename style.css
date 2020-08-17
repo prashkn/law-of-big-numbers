@@ -1,0 +1,59 @@
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: grey;
+}
+
+h3 {
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    padding: 20px;
+    background-color: grey;
+}
+
+#prash{
+    display: none;
+}
+
+body {
+    background-color: lightgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.slidecontainer {
+    text-align: center;
+}
+
+.slider {
+    width: 50%;
+}
+
+#eresult {
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: grey;
+    margin-left: 7px;
+}
+
+#randomNumber {
+    background-color: lightgrey;
+    padding: 5px;
+    display:none;
+}
+
+button {
+    background-color: grey;
+    border-radius: 5px;
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.play{
+    text-align: center;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Law of Big Numbers Demonstration</title>
+</head>
+<body>
+    <h1>Law of Big Numbers Demonstration</h1>
+    <br>
+    <div class="slidecontainer">
+        <h3>Range: <span id="range"></span></h3>
+        <input type="range" min="1" max="500" value="250" class="slider" id="rangeSlider">
+    </div>
+    <div class="slidecontainer">
+        <h3>Number of Trials: <span id="trial"></span></h3>
+        <input type="range" min="1" max="20000" value="10000" class="slider" id="trialSlider">
+    </div> <br>
+    <div class="play">
+        <button id="runTrials">Run Trials</button>
+    </div> 
+    <div class="play">
+        <button id="refresh">Refresh</button>
+    </div>
+    <br>
+    <div>
+        <h3>Expected Result: 
+            <span id="eresult">125</span>
+        </h3>
+    </div> <br>
+    <div id="prash">
+        <h2>Game #<span id="counter"></span>: <span id="randomNumber"></span></h2>
+    </div> <br>
+    <div>
+        <h3>Actual Result: <span id="accResult"></span></h3>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
